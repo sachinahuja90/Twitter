@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10410" started-at="2019-04-28T03:51:29Z" finished-at="2019-04-28T03:51:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10410" started-at="2019-04-28T03:51:29Z" finished-at="2019-04-28T03:51:39Z">
+      <class name="com.twitter.api.Twitter">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="BeforeSuite" is-config="true" duration-ms="137" started-at="2019-04-28T03:51:29Z" finished-at="2019-04-28T03:51:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="initializeRestClient" is-config="true" duration-ms="386" started-at="2019-04-28T03:51:29Z" finished-at="2019-04-28T03:51:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.twitter.api.Twitter.Test_HighestRetweetCount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="Test_HighestRetweetCount()[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="Test_HighestRetweetCount" duration-ms="3191" started-at="2019-04-28T03:51:29Z" finished-at="2019-04-28T03:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_HighestRetweetCount -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="getResult" is-config="true" duration-ms="2" started-at="2019-04-28T03:51:32Z" finished-at="2019-04-28T03:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_HighestRetweetCount status=SUCCESS method=Twitter.Test_HighestRetweetCount()[pri:0, instance:com.twitter.api.Twitter@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-04-28T03:51:32Z" finished-at="2019-04-28T03:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.twitter.api.Twitter.Test_Top_10_Hashtag()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="Test_Top_10_Hashtag()[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="Test_Top_10_Hashtag" duration-ms="1829" started-at="2019-04-28T03:51:32Z" finished-at="2019-04-28T03:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Top_10_Hashtag -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-28T03:51:34Z" finished-at="2019-04-28T03:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Top_10_Hashtag status=SUCCESS method=Twitter.Test_Top_10_Hashtag()[pri:0, instance:com.twitter.api.Twitter@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-04-28T03:51:34Z" finished-at="2019-04-28T03:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.twitter.api.Twitter.Test_Top_3_Followers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="Test_Top_3_Followers()[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="Test_Top_3_Followers" duration-ms="1769" started-at="2019-04-28T03:51:34Z" finished-at="2019-04-28T03:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Top_3_Followers -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-28T03:51:36Z" finished-at="2019-04-28T03:51:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Top_3_Followers status=SUCCESS method=Twitter.Test_Top_3_Followers()[pri:0, instance:com.twitter.api.Twitter@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-04-28T03:51:36Z" finished-at="2019-04-28T03:51:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.twitter.api.Twitter.Test_HighestLikeCount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="Test_HighestLikeCount()[pri:2, instance:com.twitter.api.Twitter@1e397ed7]" name="Test_HighestLikeCount" duration-ms="1136" started-at="2019-04-28T03:51:36Z" finished-at="2019-04-28T03:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_HighestLikeCount -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-28T03:51:37Z" finished-at="2019-04-28T03:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_HighestLikeCount status=SUCCESS method=Twitter.Test_HighestLikeCount()[pri:2, instance:com.twitter.api.Twitter@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-04-28T03:51:37Z" finished-at="2019-04-28T03:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.twitter.api.Twitter.Test_JSONSample()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="Test_JSONSample()[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="Test_JSONSample" duration-ms="5" started-at="2019-04-28T03:51:37Z" depends-on-methods="com.twitter.api.Twitter.Test_HighestLikeCount, com.twitter.api.Twitter.Test_Top_10_Hashtag, com.twitter.api.Twitter.Test_HighestRetweetCount, com.twitter.api.Twitter.Test_Top_3_Followers" finished-at="2019-04-28T03:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_JSONSample -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-28T03:51:37Z" finished-at="2019-04-28T03:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_JSONSample status=SUCCESS method=Twitter.Test_JSONSample()[pri:0, instance:com.twitter.api.Twitter@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test_PostRequest()[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="Test_PostRequest" duration-ms="2054" started-at="2019-04-28T03:51:37Z" depends-on-methods="com.twitter.api.Twitter.Test_JSONSample" finished-at="2019-04-28T03:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PostRequest -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-04-28T03:51:37Z" finished-at="2019-04-28T03:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.twitter.api.Twitter.Test_PostRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-28T03:51:39Z" finished-at="2019-04-28T03:51:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_PostRequest status=SUCCESS method=Twitter.Test_PostRequest()[pri:0, instance:com.twitter.api.Twitter@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.twitter.api.Twitter@1e397ed7]" name="tearDown" is-config="true" duration-ms="220" started-at="2019-04-28T03:51:39Z" finished-at="2019-04-28T03:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.twitter.api.Twitter -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

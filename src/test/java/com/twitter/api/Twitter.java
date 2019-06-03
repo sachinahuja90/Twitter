@@ -1,22 +1,16 @@
 package com.twitter.api;
 
-import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
-
-
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertTrue;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -31,19 +25,6 @@ public class Twitter extends TestCasesBase{
 	List<Biography> lst;
 	
 	JSONObject mainJSON;
-
-
-    protected String baseUri;
-    String curDir = System.getProperty("user.dir");
-    
-    Logger logger = Logger.getRootLogger();
-    protected static RequestSpecification httpRequest = null;
-    
-    public static HashMap<String, String> propertyMap;
-
-	
-	
-    
 	
 	@Test
 	public void Test_HighestRetweetCount() {
@@ -100,7 +81,7 @@ public class Twitter extends TestCasesBase{
 		 
 		 
 		 int j = 0; 
-		  Set set = sortedMap.keySet();
+		  Set<String> set = sortedMap.keySet();
 		  for(Object str:set) {
 			  j++;
 			  hashTags.add((String)str);
